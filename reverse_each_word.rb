@@ -1,4 +1,4 @@
-def reverse(string)
+def reverse_each_word(string)
   yarra = []
   new_array = string.split(/ /)
   new_array.each do |word|
